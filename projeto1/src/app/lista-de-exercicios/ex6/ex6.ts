@@ -19,3 +19,4 @@ export class Ex6 {
     this.like--;
   }
 }
+  }

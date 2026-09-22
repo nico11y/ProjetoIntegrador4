@@ -1,0 +1,9 @@
+<h1>Desafio Final</h1>
+<label>Aluno:</label>
+<input type="text" [(ngModel)]="nome"><br>
+<h3>Aluno: {{nome}}</h3>
+<h3>Disciplinas: {{disciplinas}}</h3>
+<button (click)="mais()">+</button>
+<button (click)="menos()" [disabled]="disciplinas === 1">-</button><br><br>
+<button (click)="matricular()"[disabled]="nome === ''">Efetuar matricula</button><br>
+<h3>{{mensagem}}</h3>

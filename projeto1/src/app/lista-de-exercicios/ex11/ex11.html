@@ -1,0 +1,8 @@
+<h1>Exercício 11: Carrinho de Compras</h1>
+<h3>Produto: {{nome}} </h3>
+<h3>Quantidade: {{quantidade}}</h3>
+<h3>Preço: {{valor}}</h3>
+<button (click)="diminuir()" [disabled]="quantidade === 1">-</button>
+<button (click)="aumentar()">+</button><br>
+<button (click)="adicionar()">adicionar</button><br><br>
+<h2>{{mensagem}}</h2>
